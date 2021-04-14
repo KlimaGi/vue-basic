@@ -1,4 +1,6 @@
 # vue-basic
+Made by the tutorial of Traversy Media for learning purposes.
+https://www.youtube.com/watch?v=qZXt1Aom3Cs
 
 ## Project setup
 ```
