@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import { v4 as uuidv4 } from "uuid";
+
 export default {
   name: "AddTask",
   data() {
@@ -44,7 +46,7 @@ export default {
       }
 
       const newTask = {
-        id: Math.floor(Math.random() * 100000),
+        id: uuidv4(),
         text: this.text,
         day: this.day,
         reminder: this.reminder,
